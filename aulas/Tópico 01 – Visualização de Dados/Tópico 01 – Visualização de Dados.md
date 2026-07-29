@@ -45,7 +45,7 @@ from IPython.display import HTML, display, IFrame
 
 ### Indivíduos e variáveis
 
-<center><img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/ind-var.png" width="90%"></center>
+<center><img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/ind-var.png" width = "90%"></center>
 
 - <span style="color:#6d9eeb"><b>Indivíduo (linha):</b></span> Pessoa/lugar/coisa para a qual os dados são registrados. Também chamado de **observação**, ou _data point_.
 
@@ -2270,19 +2270,19 @@ Além do chart junk, algumas manipulações clássicas dos gráficos incluem dis
 Seguem abaixo alguns exemplos de visualizações "ruins":
 
 <left>
-    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/usefuljunk-monster.jpg"; width = "50%">
+    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/usefuljunk-monster.jpg" width = "50%">
 </left>    
 
 <left>
-    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/average_height.png"; width = "50%">
+    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/average_height.png" width = "50%">
 </left>
 
 <left>
-    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/bananas.png"; width = "50%">
+    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/bananas.png" width = "50%">
 </left>
 
 <left>
-    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/weather.png"; width = "50%">
+    <img src = "https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/weather.png" width = "50%">
 </left>
 
 ## Resumo
