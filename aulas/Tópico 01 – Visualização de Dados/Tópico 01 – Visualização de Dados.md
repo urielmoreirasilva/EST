@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Tópico 01 – Visualização de Dados"
+parent: "Aulas Computacionais"
+nav_order: 1
+---
 # Tópico 01 – Visualização de Dados [<img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/colag_logo.svg" style="float: right; vertical-align: middle; width: 42px; height: 42px;">](https://colab.research.google.com/github/urielmoreirasilva/EST/blob/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados.ipynb) [<img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/images/github_logo.svg" style="float: right; margin-right: 12px; vertical-align: middle; width: 36px; height: 36px;">](https://github.com/urielmoreirasilva/EST/blob/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados.ipynb)
 
 Um pouco sobre como representar dados de maneira visual!
@@ -586,7 +592,7 @@ actors.plot(kind = 'scatter', x = 'Number of Movies', y = 'Total Gross');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_26_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_27_0.png)
     
 
 
@@ -620,7 +626,7 @@ actors.plot(kind = 'scatter', x = 'Number of Movies', y = 'Total Gross')
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_29_1.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_30_1.png)
     
 
 
@@ -635,7 +641,7 @@ actors.plot(kind = 'scatter', x = 'Number of Movies', y = 'Average per Movie');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_32_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_33_0.png)
     
 
 
@@ -1138,7 +1144,7 @@ movies_by_year.plot(kind = 'line', y = 'Number of Movies');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_45_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_46_0.png)
     
 
 
@@ -1167,7 +1173,7 @@ movies_by_year.plot(kind = 'line', y = 'Number of Movies');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_49_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_50_0.png)
     
 
 
@@ -1186,7 +1192,7 @@ movies_by_year[movies_by_year.index >= 2000].plot(kind='line', y='Number of Movi
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_52_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_53_0.png)
     
 
 
@@ -1201,7 +1207,7 @@ movies_by_year[movies_by_year.index >= 2000].plot(kind = 'line', y = 'Total Gros
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_55_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_56_0.png)
     
 
 
@@ -1640,7 +1646,7 @@ charts.take(np.arange(10)).plot(kind = 'barh', x = 'track_name', y = 'streams');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_64_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_65_0.png)
     
 
 
@@ -1675,7 +1681,7 @@ df.plot(
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_68_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_69_0.png)
     
 
 
@@ -1881,7 +1887,7 @@ top_15_artists.sort_values().plot(kind = 'barh', y = 'count');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_79_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_80_0.png)
     
 
 
@@ -1906,7 +1912,7 @@ top_15_artists.plot(kind = 'bar', y = 'count');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_84_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_85_0.png)
     
 
 
@@ -1926,7 +1932,7 @@ top_15_artists.plot(kind = 'bar', y = 'count');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_87_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_88_0.png)
     
 
 
@@ -2046,7 +2052,7 @@ weeknd.sort_values('streams').plot(kind='barh', x='track_name', y='streams');
 
 
     
-![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_92_0.png)
+![png](T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_files/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados_93_0.png)
     
 
 
