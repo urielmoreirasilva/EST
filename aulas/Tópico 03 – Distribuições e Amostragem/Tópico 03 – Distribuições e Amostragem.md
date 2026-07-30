@@ -158,7 +158,7 @@ many_rolls
 
 
 
-    array([2, 1, 4, ..., 2, 1, 3], shape=(25,))
+    array([6, 4, 2, ..., 3, 2, 3], shape=(25,))
 
 
 
@@ -275,12 +275,12 @@ many_rolls = np.random.choice(die_faces, num_rolls)
 
 
     0
-    5    36.0
-    2    16.0
-    3    15.0
-    6    14.0
-    4    12.0
-    1     7.0
+    4    22.0
+    3    20.0
+    5    16.0
+    6    15.0
+    1    14.0
+    2    13.0
     Name: count, dtype: float64
 
 
@@ -333,7 +333,7 @@ np.random.choice(colleges, 3, replace = False)
 
 
 
-    array(['UFSCar', 'UFRJ', 'UEMG'], dtype='<U7')
+    array(['UFRGS', 'UEMG', 'UNICAMP'], dtype='<U7')
 
 
 
@@ -347,7 +347,7 @@ Para o restante dessa aula, assuma que essa base de dados seja a nossa _populaç
 
 
 ```python
-united_full = pd.read_csv('data/united_summer2015.csv')
+united_full = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2003%20%E2%80%93%20Distribui%C3%A7%C3%B5es%20e%20Amostragem/data/united_summer2015.csv')
 united_full
 ```
 
@@ -482,39 +482,39 @@ united_full.sample(5)
   </thead>
   <tbody>
     <tr>
-      <th>10962</th>
-      <td>8/12/15</td>
-      <td>1091</td>
+      <th>13591</th>
+      <td>8/30/15</td>
+      <td>834</td>
       <td>DEN</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>9656</th>
-      <td>8/4/15</td>
-      <td>399</td>
-      <td>RDU</td>
-      <td>-2</td>
-    </tr>
-    <tr>
-      <th>907</th>
-      <td>6/7/15</td>
-      <td>384</td>
-      <td>ORD</td>
       <td>-8</td>
     </tr>
     <tr>
-      <th>7082</th>
-      <td>7/18/15</td>
-      <td>583</td>
-      <td>LAS</td>
-      <td>-5</td>
+      <th>4219</th>
+      <td>6/29/15</td>
+      <td>354</td>
+      <td>IAH</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>2652</th>
-      <td>6/18/15</td>
-      <td>1456</td>
-      <td>EWR</td>
-      <td>169</td>
+      <th>1141</th>
+      <td>6/8/15</td>
+      <td>1606</td>
+      <td>ORD</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>12321</th>
+      <td>8/21/15</td>
+      <td>1120</td>
+      <td>BOS</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>6/2/15</td>
+      <td>318</td>
+      <td>DEN</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -557,39 +557,39 @@ united_full.iloc[np.random.choice(united_full.index, 5, replace = False)]
   </thead>
   <tbody>
     <tr>
-      <th>2373</th>
-      <td>6/16/15</td>
-      <td>1721</td>
-      <td>KOA</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>6/1/15</td>
-      <td>577</td>
-      <td>EWR</td>
-      <td>-9</td>
-    </tr>
-    <tr>
-      <th>4272</th>
-      <td>6/29/15</td>
-      <td>1120</td>
-      <td>IAH</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4963</th>
-      <td>7/4/15</td>
-      <td>663</td>
-      <td>HNL</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>10064</th>
-      <td>8/6/15</td>
-      <td>1591</td>
+      <th>6364</th>
+      <td>7/13/15</td>
+      <td>1668</td>
       <td>ORD</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>5119</th>
+      <td>7/5/15</td>
+      <td>1440</td>
+      <td>IAD</td>
       <td>-2</td>
+    </tr>
+    <tr>
+      <th>10961</th>
+      <td>8/12/15</td>
+      <td>1086</td>
+      <td>IAH</td>
+      <td>-5</td>
+    </tr>
+    <tr>
+      <th>8174</th>
+      <td>7/25/15</td>
+      <td>1060</td>
+      <td>IAH</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>8596</th>
+      <td>7/28/15</td>
+      <td>693</td>
+      <td>IAH</td>
+      <td>27</td>
     </tr>
   </tbody>
 </table>
@@ -632,39 +632,39 @@ united_full.sample(5, replace = True)
   </thead>
   <tbody>
     <tr>
-      <th>13551</th>
-      <td>8/30/15</td>
-      <td>427</td>
-      <td>OGG</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>3246</th>
-      <td>6/22/15</td>
-      <td>1577</td>
-      <td>ORD</td>
-      <td>-5</td>
-    </tr>
-    <tr>
-      <th>913</th>
-      <td>6/7/15</td>
-      <td>401</td>
-      <td>CLE</td>
-      <td>-5</td>
-    </tr>
-    <tr>
-      <th>753</th>
-      <td>6/5/15</td>
-      <td>1946</td>
-      <td>BOS</td>
+      <th>9462</th>
+      <td>8/2/15</td>
+      <td>1960</td>
+      <td>LAX</td>
       <td>-2</td>
     </tr>
     <tr>
-      <th>2648</th>
-      <td>6/18/15</td>
-      <td>1273</td>
-      <td>OGG</td>
-      <td>3</td>
+      <th>6687</th>
+      <td>7/15/15</td>
+      <td>1674</td>
+      <td>EWR</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>9335</th>
+      <td>8/2/15</td>
+      <td>331</td>
+      <td>DEN</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <th>9825</th>
+      <td>8/5/15</td>
+      <td>502</td>
+      <td>JFK</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>1087</th>
+      <td>6/8/15</td>
+      <td>758</td>
+      <td>JFK</td>
+      <td>-8</td>
     </tr>
   </tbody>
 </table>
@@ -689,7 +689,7 @@ Note que os atrasos de vôos estão expressos em **minutos**, e um "atraso" nega
 
 
 ```python
-united = pd.DataFrame(united_full['Delay']) ## [!]
+united = pd.DataFrame(united_full['Delay'])
 united
 ```
 
@@ -869,7 +869,7 @@ united.sample(sample_size)['Delay'].mean()
 
 
 
-    np.float64(14.22)
+    np.float64(13.38)
 
 
 
@@ -896,7 +896,7 @@ united.sample(sample_size)['Delay'].mean()
 
 
 
-    np.float64(17.357)
+    np.float64(15.786)
 
 
 

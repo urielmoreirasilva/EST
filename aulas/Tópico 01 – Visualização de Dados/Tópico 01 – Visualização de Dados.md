@@ -132,7 +132,7 @@ Veremos todos os esses tipos de gráficos nesse e no próximo tópico.
 
 
 ```python
-actors = pd.read_csv('data/actors.csv').set_index('Actor')
+actors = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/actors.csv').set_index('Actor')
 actors
 ```
 
@@ -816,7 +816,7 @@ A média de receita no box office desse ator é bem alta!
 
 
 ```python
-movies_by_year = pd.read_csv('data/movies_by_year.csv').set_index('Year')
+movies_by_year = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/movies_by_year.csv').set_index('Year')
 movies_by_year
 ```
 
@@ -1269,7 +1269,7 @@ movies_by_year[movies_by_year.index == 2016]
 
 
 ```python
-charts = (pd.read_csv('data/regional-us-daily-2023-01-21.csv')
+charts = (pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2001%20%E2%80%93%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/regional-us-daily-2023-01-21.csv')
           .set_index('rank')
           .get(['track_name', 'artist_names', 'streams', 'uri'])
          )

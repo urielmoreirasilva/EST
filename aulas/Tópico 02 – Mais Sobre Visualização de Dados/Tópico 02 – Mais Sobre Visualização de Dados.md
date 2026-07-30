@@ -137,7 +137,7 @@ Como exemplo, vejamos abaixo o número de streams de cada uma das 200 músicas �
 
 ```python
 # Carregando o DataFrame
-charts = pd.read_csv('data/regional-us-daily-2023-01-21.csv')
+charts = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2002%20%E2%80%93%20Mais%20Sobre%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/regional-us-daily-2023-01-21.csv')
 
 # Atribuindo um índice, criando a coluna `million_streams` e filtrando o DataFrame pelas colunas desejadas 
 charts = (charts.set_index('rank')
@@ -719,7 +719,7 @@ Os comprimentos das barras são proporcionais à quantidade numérica de interes
 
 
 ```python
-population = pd.read_csv('data/sd-sj-2022.csv').set_index('date')
+population = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2002%20%E2%80%93%20Mais%20Sobre%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/sd-sj-2022.csv').set_index('date')
 population
 ```
 
@@ -1533,7 +1533,7 @@ Para esse exemplo, selecionaremos apenas duas colunas do DataFrame original: `'m
 
 
 ```python
-mother_child = pd.read_csv('data/galton.csv').get(['mother', 'childHeight'])
+mother_child = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2002%20%E2%80%93%20Mais%20Sobre%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/galton.csv').get(['mother', 'childHeight'])
 mother_child
 ```
 
@@ -1651,7 +1651,7 @@ Porém, note que ao escolhermos apenas `'mother'` e `'childHeight'`, ignoramos u
 
 Nas duas células de código abaixo, refaça os histogramas sobrepostos de `'mother'` e `'childHeight'`, mas agora filtrando pelo sexo dos filhos (uma célula para os homens e outra para as mulheres). Suas conclusões se mantiveram as mesmas, isto é, em média os filhos realmente parecem ser mais altos que suas mães?
 
-<u> Dica<u/>: Redeclare o DataFrame, invocando algo do tipo `df = pd.read_csv('data/galton.csv').get(['mother', 'childHeight', 'gender'])`.
+*<u> Dica<u/>: Redeclare o DataFrame, invocando algo do tipo `df = pd.read_csv('https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2002%20%E2%80%93%20Mais%20Sobre%20Visualiza%C3%A7%C3%A3o%20de%20Dados/data/galton.csv').get(['mother', 'childHeight', 'gender'])`.*
 
 
 ```python
