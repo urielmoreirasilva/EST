@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tópico 06 – Regressão Linear"
-parent: "Aulas"
+parent: "Aulas Computacionais"
 nav_order: 06
 ---
 # Tópico 06 – Regressão Linear [<img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2006%20%E2%80%93%20Regress%C3%A3o%20Linear/images/colag_logo.svg" style="float: right; margin-right: 0%; vertical-align: middle; width: 6.5%;">](https://colab.research.google.com/github/urielmoreirasilva/EST/blob/main/aulas/T%C3%B3pico%2006%20%E2%80%93%20Regress%C3%A3o%20Linear/T%C3%B3pico%2006%20%E2%80%93%20Regress%C3%A3o%20Linear.ipynb) [<img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2006%20%E2%80%93%20Regress%C3%A3o%20Linear/images/github_logo.svg" style="float: right; margin-right: 0%; vertical-align: middle; width: 3.25%;">](https://github.com/urielmoreirasilva/EST/blob/main/aulas/T%C3%B3pico%2006%20%E2%80%93%20Regress%C3%A3o%20Linear/T%C3%B3pico%2006%20%E2%80%93%20Regress%C3%A3o%20Linear.ipynb)

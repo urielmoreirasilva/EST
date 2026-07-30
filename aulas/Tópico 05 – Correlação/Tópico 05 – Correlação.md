@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tópico 05 – Correlação"
-parent: "Aulas"
+parent: "Aulas Computacionais"
 nav_order: 05
 ---
 # Tópico 05 – Correlação [<img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2005%20%E2%80%93%20Correla%C3%A7%C3%A3o/images/colag_logo.svg" style="float: right; margin-right: 0%; vertical-align: middle; width: 6.5%;">](https://colab.research.google.com/github/urielmoreirasilva/EST/blob/main/aulas/T%C3%B3pico%2005%20%E2%80%93%20Correla%C3%A7%C3%A3o/T%C3%B3pico%2005%20%E2%80%93%20Correla%C3%A7%C3%A3o.ipynb) [<img src="https://raw.githubusercontent.com/urielmoreirasilva/EST/main/aulas/T%C3%B3pico%2005%20%E2%80%93%20Correla%C3%A7%C3%A3o/images/github_logo.svg" style="float: right; margin-right: 0%; vertical-align: middle; width: 3.25%;">](https://github.com/urielmoreirasilva/EST/blob/main/aulas/T%C3%B3pico%2005%20%E2%80%93%20Correla%C3%A7%C3%A3o/T%C3%B3pico%2005%20%E2%80%93%20Correla%C3%A7%C3%A3o.ipynb)
